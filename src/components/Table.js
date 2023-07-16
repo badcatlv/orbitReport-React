@@ -1,5 +1,7 @@
 const Table = ({ sat }) => {
   return (
+    //use map() to render data based on user selected orbit type
+    //map thru the sat property using id and data as callbacks
       <table>
        <thead>
         <tr>
@@ -16,3 +18,9 @@ const Table = ({ sat }) => {
 };
 
 export default Table;
+//create a table that show the following data
+    //Name
+    //Type of Satellite
+    //Launch Date
+    //Status
+//expand the table so that it displays the required data for each satellite
