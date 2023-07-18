@@ -1,3 +1,5 @@
+import "./styling.css"
+
 const Table = ({ sat }) => {
   return (
     //use map() to render data based on user selected orbit type
